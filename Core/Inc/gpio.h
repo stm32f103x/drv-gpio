@@ -38,22 +38,22 @@
 
 
 /* GPIO_MODE */
-#define GPIO_INPUT          (uint32_t)0x00
-#define GPIO_OUTPUT_10MHZ   (uint32_t)0x01
-#define GPIO_OUTPUT_2MHZ    (uint32_t)0x02
-#define GPIO_OUTPUT_50MHZ   (uint32_t)0x03
+#define GPIO_MODE_INPUT          (uint32_t)0x00
+#define GPIO_MODE_OUTPUT_10MHZ   (uint32_t)0x01
+#define GPIO_MODE_OUTPUT_2MHZ    (uint32_t)0x02
+#define GPIO_MODE_OUTPUT_50MHZ   (uint32_t)0x03
 
 /* GPIO_CONFIG - OUTPUT */
-#define GPIO_GEN_OUT_PP     (uint32_t)0x00
-#define GPIO_GEN_OUT_OD     (uint32_t)0x01
-#define GPIO_ALT_OUT_PP     (uint32_t)0x02
-#define GPIO_ALT_OUT_OD     (uint32_t)0x03
+#define GPIO_CONF_GEN_OUT_PP     (uint32_t)0x00
+#define GPIO_CONF_GEN_OUT_OD     (uint32_t)0x01
+#define GPIO_CONF_ALT_FUN_PP     (uint32_t)0x02
+#define GPIO_CONF_ALT_FUN_OD     (uint32_t)0x03
 
 /* GPIO_CONFIG - INPUT */
-#define GPIO_IN_ANALOG      (uint32_t)0x00
-#define GPIO_IN_FLOATING    (uint32_t)0x01
-#define GPIO_IN_PULLUP      (uint32_t)0x02
-#define GPIO_IN_PULLDOWN    (uint32_t)0x03
+#define GPIO_CONF_IN_ANALOG      (uint32_t)0x00
+#define GPIO_CONF_IN_FLOATING    (uint32_t)0x01
+#define GPIO_CONF_IN_PULLUP      (uint32_t)0x02
+#define GPIO_CONF_IN_PULLDOWN    (uint32_t)0x03
 
 /* PINx */
 #define GPIO_PIN0           (uint8_t)( 0 )
